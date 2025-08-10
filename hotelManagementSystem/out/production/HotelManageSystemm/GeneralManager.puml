@@ -1,0 +1,40 @@
+@startuml
+class GeneralManager {
+    - roomsDirectory : String
+    - employeeDirectory : String
+    - mainFrame : JFrame
+    - container : Container
+    - cardLayout : CardLayout
+    - receptionistPanel : JPanel
+    - managerPanel : JPanel
+    - mainPanel : JPanel
+    - tableReceptionist : JTable
+    - tableManager : JTable
+    - managerModel : DefaultTableModel
+    - receptionistModel : DefaultTableModel
+    - columnNames1 : String[]
+    - columnNames2 : String[]
+    - scrollPane1 : JScrollPane
+    - scrollPane2 : JScrollPane
+    - addReceptionist : JButton
+    - removeReceptionist : JButton
+    - addManager : JButton
+    - removeManager : JButton
+    - welcomeLabel : JLabel
+    - welcomeLabel2 : JLabel
+    - managerLabel : JLabel
+    - receptionistLabel : JLabel
+    - btnGoToReceptionist : JButton
+    - btnGoToManager : JButton
+    - btnLogout1 : JButton
+    - btnLogout2 : JButton
+
+    + GeneralManager()
+    - generateSecurePassword(length : int) : String
+    - updateTablesFromEmployeeFile() : void
+    - addReceptionist() : void
+    - removeManager() : void
+    - removeReceptionist() : void
+    - addManager() : void
+}
+@enduml

@@ -1,0 +1,27 @@
+@startuml
+class LoginPage {
+    - cp : Container
+    - mainFrame : JFrame
+    - cardPanel : JPanel
+    - cardLayout : CardLayout
+    - loginPanel : JPanel
+    - topImagePanel : JPanel
+    - lbTitleLogin : JLabel
+    - lbLoginPassword : JLabel
+    - lbLoginUsername : JLabel
+    - tfLoginPassword : JPasswordField
+    - tfLoginUsername : JTextField
+    - btnLogin : JButton
+    - btnCreateAccount : JButton
+    - rbReceptionistLogin : JRadioButton
+    - rbManagerLogin : JRadioButton
+    - rbGeneralManagerLogin : JRadioButton
+    - bgLogin : ButtonGroup
+    - directory : String
+    - customColor : Color
+    - lilac : Color
+    - lightBlue : Color
+
+    + LoginPage()
+}
+@enduml

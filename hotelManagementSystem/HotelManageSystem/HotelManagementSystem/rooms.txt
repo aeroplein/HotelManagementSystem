@@ -1,0 +1,21 @@
+101,Single,1000,Available,Ready
+102,Double,2000,Available,Ready
+103,Triple,3000,Available,Ready
+104,King,4000,Available,Ready
+105,Master Suite,5000,Available,Ready
+201,Single,1000,Available,Ready
+202,Double,2000,Available,Ready
+203,Triple,3000,Available,Ready
+204,King,4000,Available,Ready
+205,Master Suite,5000,Available,Ready
+301,Single,1000,Available,Ready
+302,Double,2000,Available,Ready
+303,Single,1000,Available,Ready
+304,King,4000,Available,Ready
+305,Master Suite,5000,Available,Under Maintenance
+401,Single,1000,Available,Ready
+402,Double,2000,Available,Under Maintenance
+403,Triple,3000,Available,Under Maintenance
+404,King,4000,Available,Under Maintenance
+501,Single,1000,Available,Ready
+502,Double,2000,Available,Ready
