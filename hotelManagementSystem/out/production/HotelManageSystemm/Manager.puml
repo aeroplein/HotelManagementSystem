@@ -1,0 +1,36 @@
+@startuml
+class Manager {
+    - roomsDirectory : String
+    - checkInRoomsDirectory : String
+    - columnNamesRooms : String[]
+    - container : Container
+    - frame : JFrame
+    - ManagementTable : JTable
+    - roomManageModel : DefaultTableModel
+    - scrollPane : JScrollPane
+    - back : JButton
+    - logout : JButton
+    - AddRoom : JButton
+    - RemoveRoom : JButton
+    - goToAddRoomPanel : JButton
+    - managementPanel : JPanel
+    - AddRoomPanel : JPanel
+    - cardPanel : JPanel
+    - tfRoomNumber : JTextField
+    - RoomType : JComboBox<String>
+    - Status : JTextField
+    - Maintenance : JComboBox<String>
+    - RoomNumberLabel : JLabel
+    - RoomTypeLabel : JLabel
+    - StatusLabel : JLabel
+    - MaintenanceLabel : JLabel
+    - cardLayout : CardLayout
+    - btnUpdateRoom : JButton
+
+    + Manager()
+    - updateRoom() : void
+    - saveRoomsToFile() : void
+    - addRoom(RoomNumber : int, Type : String, Maintenance : boolean) : void
+    - removeRoom() : void
+}
+@enduml

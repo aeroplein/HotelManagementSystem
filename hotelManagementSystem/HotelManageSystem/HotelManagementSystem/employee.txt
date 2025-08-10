@@ -1,0 +1,8 @@
+Pelin Zeynep,Kaya,pelinkaya22,1234,General Manager,60000.0
+Arjin,Ilhan,slay,1234,Manager,40000.0
+Gamze,Ersoy,gersoy,1234,Receptionist,30000.0
+Seren,Aydeniz,seraydeniz,WvrQD,Receptionist,30000.0
+Tekin,Güner,tguner,GBQkP,Manager,40000.0
+Eren,Deniz,erdeniz,X9Y6l,Receptionist,30000.0
+Miray,Yılmaz,mirayilmaz,EqMHw,Receptionist,30000.0
+Sinan,Aydın,sinanaydin,Z2nMb,Receptionist,30000.0

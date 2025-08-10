@@ -1,0 +1,59 @@
+@startuml
+class Receptionist {
+    - mainFrame : JFrame
+    - container : Container
+    - cardLayout : CardLayout
+    - mainPanel : JPanel
+    - checkInPanel : JPanel
+    - takenRoomsPanel : JPanel
+    - availableRoomsPanel : JPanel
+    - menuPanel : JPanel
+    - checkingIntableRoom : JTable
+    - tableTakenRooms : JTable
+    - tableAvailableRooms : JTable
+    - roomModel : DefaultTableModel
+    - takenRoomsModel : DefaultTableModel
+    - checkInRoomsModel : DefaultTableModel
+    - scrollPaneRoom : JScrollPane
+    - scrollPaneTakenRooms : JScrollPane
+    - scrollPaneAvailableRooms : JScrollPane
+    - dateComboBox : JComboBox<String>
+    - tfName : JTextField
+    - tfSurname : JTextField
+    - tfPhoneNumber : JTextField
+    - tfDate : JTextField
+    - btnConfirm : JButton
+    - btnRooms : JButton
+    - btnLogout : JButton
+    - btnCheckIn : JButton
+    - btnCheckOut : JButton
+    - btnGoToCheckIn : JButton
+    - btnGoToTakenRooms : JButton
+    - btnGoBackToMainPageAvailableRooms : JButton
+    - btnGoBackToMainPageTakenRooms : JButton
+    - btnGoBackToMainPageCheckIn : JButton
+    - columnNames1 : String[]
+    - columnNames2 : String[]
+    - roomTypes : String[]
+    - roomStatuses : String[]
+    - roomPrices : String[]
+    - customerName : String
+    - customerSurname : String
+    - phoneNumber : String
+    - roomNumber : String
+    - roomType : String
+    - roomStatus : String
+    - roomPrice : String
+    - roomsDirectory : String
+    - takenRoomsDirectory : String
+    - checkInRoomsDirectory : String
+    - customersDirectory : String
+    - ReceptionIcon : ImageIcon
+    - ReceptionLabel : JLabel
+
+    + Receptionist()
+    - updateRoomStatusToFile(roomNumber : String, roomStatus : String) : void
+    - checkIn(roomNumber : String, checkInRoomsModel : DefaultTableModel, takenRoomsModel : DefaultTableModel, checkInRoomsDirectory : String, takenRoomsDirectory : String) : void
+    - checkOut(roomNumber : String, takenRoomsModel : DefaultTableModel, checkInRoomsModel : DefaultTableModel, takenRoomsDirectory : String, checkInRoomsDirectory : String) : void
+}
+@enduml
